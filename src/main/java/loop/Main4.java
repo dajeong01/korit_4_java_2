@@ -22,7 +22,9 @@ public class Main4 {
                 maxStudent = s;
             }
         }
-        System.out.println(maxStudent.getName());
+        if(maxStudent != null){
+            System.out.println(maxStudent.getName());
+        }
 
     }
 }
